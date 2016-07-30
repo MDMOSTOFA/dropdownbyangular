@@ -1,0 +1,65 @@
+    body {
+        margin: 0;
+        padding: 0;
+        font-size: 100%;
+        font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #676a6c;
+		
+    }
+    /************************** MENU Design ********************************/
+    
+    .menu_0 {
+        display: block;
+        background: #c5c5c5;
+        height: 50px;
+        z-index: 9999;
+    }
+    
+    .menu_0 li {
+        display: inline-block;
+        font-size: 18px;
+        padding: 10px 15px;
+        color: #000;
+    }
+    
+    .menu_0 li a {
+        color: #000;
+        text-align: left;
+        text-decoration: none;
+    }
+    
+    li.active ul.parent {
+        display: block;
+    }
+    
+    li ul.parent {
+        position: absolute;
+        display: none;
+        margin: 15px 0 0 0px;
+        background-color: #1ab394;
+        color: #FFFFFF;
+        left: 0;
+        width: 100%;
+    }
+    
+    li ul.parent li {
+        color: #fff;
+        background: #1ab394;
+        border-left: 1px solid rgba(0, 0, 0, 0.32);
+        border-radius: 0;
+        border-right: 1px solid rgba(0, 0, 0, 0.32);
+        margin: 3px -4px 5px -4px;
+        padding: 8px 22px;
+    }
+    
+    li ul.parent li a {
+        color: #fff;
+    }
+    
+    .menu_0 li a i {
+        color: rgba(0, 0, 0, 0.52);
+        padding-left: 10px;
+    }
+
+    /************************/
+    

@@ -1,0 +1,43 @@
+<!Doctype html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Angulatr JS</title>
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <!-------Cdn link ------------>
+</head>
+
+	<body ng-app="myModule">
+		<div class="container-fluid">
+			<div class="row">
+
+                <div class="col-md-12 col-md-12 padding">
+                    <div class="">
+                        <div class="continer-body bg_body">
+                            <div class="row">
+                                <!---------- Sub Menu here ------->
+                                <div ng-controller="myController">
+                                    <div ng-include="menuIteamsView"> </div>
+                                </div>
+                                <!---------- Content body with drag frop and right sidber------->
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+			</div>
+		</div>
+    <!--- <div ng-include="'themplate/dragdrop.html '"> </div> -->
+    <script type="text/javascript" src="scripts/angular.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <!--<script type="text/javascript" src="scripts/angular-route.min.js"></script> -->
+    <script type="text/javascript" src="scripts/scripts.js"></script>
+    <script type="text/javascript" src="scripts/bootstrap.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.0.0/ui-bootstrap.js"></script>
+</body>
+
+</html>

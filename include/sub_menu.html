@@ -1,0 +1,9 @@
+<div>
+    <ul class="menu_0">
+        <li ng-repeat="menuIteam in menuIteams" ng-click="select(menuIteam)" ng-class="{active: isActive(menuIteam)}"> <a href="#"> {{ menuIteam.menuElement }} <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+            <ul class="parent ">
+                <li ng-repeat="SubMenuElement in menuIteam.SubMenuElements "><a href="# " draggable> {{ SubMenuElement.menuElement }} </a></li>
+            </ul>
+        </li>
+    </ul>
+</div>
